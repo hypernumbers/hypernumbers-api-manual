@@ -28,7 +28,7 @@ Body        ``{"clear": "all"}``
 
             ``{"clear": "content"}``
 
-            ``{"clear": "formatting"}``
+            ``{"clear": "style"}``
 
 Permissions ``normal`` or ``admin``
 
@@ -47,7 +47,7 @@ The option ``all`` clears everything except numerical formats: values, formulae,
 
 The option ``contents`` removes values and formulae from cells only and leaves the formats.
 
-The option ``formatting`` removes all formats (except numerical formats)
+The option ``style`` removes all formats (except numerical formats)
 
 Note that unlike most other formatting options ``clear`` can be applied to rows, columns and entire pages.
 

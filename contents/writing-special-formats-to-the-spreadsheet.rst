@@ -38,7 +38,7 @@ Body        ``{"set":{"input": "inline"}}``
 
             ``{"set":{"input": "none"}}``
 
-            ``{"clear": "formatting"}``
+            ``{"clear": "style"}``
 
             ``{"clear": "all"}``
 
@@ -62,7 +62,7 @@ Unlike in a spreadsheet cell if these inputs begin with an equals sign they are 
 
 .. _z-query: http://documentation.vixo.com/contents/indepth/database-queries.html?from=vixo-api-manual
 
-Setting the input to none removes the various inline editing capabilities. You can also clear an inline special format with ``clear``. The ``formatting`` option will remove the special format (and any ghost, merge and cell formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
+Setting the input to none removes the various inline editing capabilities. You can also clear an inline special format with ``clear``. The ``style`` option will remove the special format (and any ghost, merge and cell formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
 
 Ghosted Cells
 -------------
@@ -88,7 +88,7 @@ Body        ``{"ghost": "true"}``
 
             ``{"ghost": "false"}``
 
-            ``{"clear": "formatting"}``
+            ``{"clear": "style"}``
 
             ``{"clear": "all"}``
 
@@ -123,7 +123,7 @@ Body        ``{"merge": {"right": 4, "down", 5}}``
 
             ``{"clear": "merge"}``
 
-            ``{"clear": "formatting"}``
+            ``{"clear": "style"}``
 
             ``{"clear": "all"}``
 
