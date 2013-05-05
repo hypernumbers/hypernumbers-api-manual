@@ -35,9 +35,9 @@ Managing API Keys
 .. toctree::
    :maxdepth: 1
 
-   API Keys In Vixo  <contents/api-keys-in-vixo>
-   Managing API Keys <contents/managing-api-keys>
-   Types Of API Keys <contents/types-of-api-keys>
+   API Keys In Vixo     <contents/api-keys-in-vixo>
+   Types Of API Keys    <contents/types-of-api-keys>
+   API User Permissions <contents/api-user-permissions>
 
 
 Reading Data From The Spreadsheet
@@ -77,10 +77,12 @@ Manipulating Spreadsheets
    :maxdepth: 1
 
    Copying Cells Or Ranges                         <contents/copying-cells-or-ranges>
-   Creating Pages From Templates                   <contents/creating-pages-from-templates>
    Deleting Cells, Ranges, Rows, Columns Or Pages  <contents/deleting-cells-ranges-rows-columns-or-pages>
    Drag And Droping                                <contents/drag-and-dropping>
    Inserting Cells, Ranges, Rows Or Columns        <contents/inserting-cells-ranges-rows-or-columns>
+   Loading And Saving Templates                    <contents/loading-and-saving-templates>
+   Managing Groups And Users                       <contents/managing-groups-and-users>
+   Managing Views                                  <contents/managing-views>
 
 Site Wide APIs
 --------------

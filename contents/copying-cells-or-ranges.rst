@@ -37,6 +37,8 @@ Body        ``{"copy": {"src": "http://example.com/some/page/A1:A1"}}``
 
             ``{"copyvalue": {"src": "http://example.com/some/page/B3:D7"}}``
 
+Permissions ``normal`` or ``admin``
+
 Cell        ``http://example.com/some/page/a5``
 
 Range       ``http://example.com/some/page/a5:b6``
@@ -55,7 +57,6 @@ For example if the source was a 2 by 2 range in ``A1:A2`` with the following val
 
 ``A2``: ``2``
 
-
 If the destination was ``A10:D11`` the values would be:
 
 ``A10``: ``1``
@@ -66,7 +67,7 @@ If the destination was ``A10:D11`` the values would be:
 
 ``B11``: ``2``
 
-If the target is not an exact mutliple of the source the destination range will be clipped.
+If the target is not an exact multiple of the source the destination range will be clipped.
 
 If the destination is smaller than the source the copy will fail.
 

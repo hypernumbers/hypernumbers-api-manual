@@ -39,7 +39,7 @@ A **before** insert puts the new cells before the URL you post the insertion to 
 
 By default, cell and range inserts displace vertically. So if you insert **before** ``a5`` the existing ``a5`` will become ``a6``.
 
-You can specify the direction of displacement using the horizonal and vertical versions of the body. In both these cases the insertion is a **before** insertion.
+You can specify the direction of displacement using the horizontal and vertical versions of the body. In both these cases the insertion is a **before** insertion.
 
 For example a **vertical** insertion on ``a5`` will make that cell ``a6`` and a horizontal one will make it ``b5``.
 

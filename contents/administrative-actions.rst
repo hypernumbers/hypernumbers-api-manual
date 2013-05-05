@@ -22,7 +22,7 @@ The core administrative URL's are:
 * ``http://example.com/_statistics/``
 * ``http://example.com/_validate/``
 
-These URL's (and their subdirectories) cannot be read or written by the API.
+These URL's (and their sub-directories) cannot be read or written by the API.
 
 There are a couple of administrative URL's that are readable:
 
@@ -31,7 +31,7 @@ There are a couple of administrative URL's that are readable:
 
 The convention that system URL's are demoted by a leading underscore (``_``) is carried through into system functions that generate input on pages they are not on.
 
-By default a form on a page places the information it captures on a subpage called ``_replies`` and the telephony and email functions capture information on a subpage called ``_contacts``.
+By default a form on a page places the information it captures on a sub-page called ``_replies`` and the telephony and email functions capture information on a sub-page called ``_contacts``.
 
 For example a `form`_ on page:
 
@@ -50,10 +50,9 @@ As a result of this the following URL's are accessible by the API:
 * ``http://example.com/_contacts/``
 * ``http://example.com/_replies/``
 
-The following page (and all its subpages) may be read by the API **but not written to**:
+The following page (and all its sub-pages) may be read by the API **but not written to**:
 
 * ``http://example.com/_audit/``
-
 
 .. _form: http://documentation.vixo.com/contents/indepth/making-forms.html
 

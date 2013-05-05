@@ -51,17 +51,19 @@ Headers     ``{"Accept", "application/json"}``
 
 Body        ``{"set": {"font-stretch": "expanded"}}``
 
-            ``{"clear": "format"}``
+            ``{"clear": "formatting"}``
 
             ``{"clear": "all"}``
 
+Permissions ``normal`` or ``admin``
+
 Cell        ``http://example.com/some/page/b7``
 
-Range        ``http://example.com/some/page/b7:b9``
+Range       ``http://example.com/some/page/b7:b9``
 =========== ============================================
 
 For other attributes simply substitute the name and value into the example body for ``font-stretch`` given in the table.
 
-You can clear a format with ``clear``. The ``format`` option will remove the cell format (and any ghost, merge and special formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
+You can clear a format with ``clear``. The ``formatting`` option will remove the cell format (and any ghost, merge and special formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
 
 .. _reading data: ./reading-data.html

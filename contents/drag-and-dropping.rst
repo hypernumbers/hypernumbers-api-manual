@@ -19,6 +19,8 @@ Headers     ``{"Accept", "application/json"}``
 
 Body         ``{"drag": {"range": "A6:A6"}}``
 
+Permissions ``normal`` or ``admin``
+
 Cell        ``http://example.com/some/page/g6``
 =========== ==========================================================
 

@@ -38,13 +38,15 @@ Body        ``{"set":{"input": "inline"}}``
 
             ``{"set":{"input": "none"}}``
 
-            ``{"clear": "format"}``
+            ``{"clear": "formatting"}``
 
             ``{"clear": "all"}``
 
-URL         ``http://example.com/some/page/b7``
+Permissions ``normal`` or ``admin``
 
-            ``http://example.com/some/page/b7:b9``
+Cell        ``http://example.com/some/page/b7``
+
+Range       ``http://example.com/some/page/b7:b9``
 =========== ===============================================================================
 
 Unlike in a spreadsheet cell if these inputs begin with an equals sign they are sharp-quoted and can't be used to input formula.
@@ -58,9 +60,9 @@ Unlike in a spreadsheet cell if these inputs begin with an equals sign they are 
 
 ``input`` with ``dynamic_select`` picks up its options from cells on the spreadsheet. If they change the available option set updates itself. The cells to be used are referenced by a URL. This URL be a simple one, or a `z-query`_.
 
-.. _z-query: http://documentation.vixo.com/contents/indepth/database-queries.html?from=api-book
+.. _z-query: http://documentation.vixo.com/contents/indepth/database-queries.html?from=vixo-api-manual
 
-Setting the input to none removes the various inline editing capabilities. You can also clear an inline special format with ``clear``. The ``format`` option will remove the special format (and any ghost, merge and cell formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
+Setting the input to none removes the various inline editing capabilities. You can also clear an inline special format with ``clear``. The ``formatting`` option will remove the special format (and any ghost, merge and cell formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
 
 Ghosted Cells
 -------------
@@ -86,9 +88,11 @@ Body        ``{"ghost": "true"}``
 
             ``{"ghost": "false"}``
 
-            ``{"clear": "format"}``
+            ``{"clear": "formatting"}``
 
             ``{"clear": "all"}``
+
+Permissions ``normal`` or ``admin``
 
 Cell        ``http://example.com/some/page/b7``
 
@@ -119,9 +123,11 @@ Body        ``{"merge": {"right": 4, "down", 5}}``
 
             ``{"clear": "merge"}``
 
-            ``{"clear": "format"}``
+            ``{"clear": "formatting"}``
 
             ``{"clear": "all"}``
+
+Permissions ``normal`` or ``admin``
 
 Cell        ``http://example.com/some/page/b7``
 

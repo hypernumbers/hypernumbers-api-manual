@@ -2,7 +2,7 @@
 URL Types
 =========
 
-Vixo URL's describe different spreadsheet objects. Not all API call's can be made against all types of object. In the documentation all suitable target objects are listed against each call. The 6 objects are:
+Vixo URL's describe different spreadsheet objects. Not all API calls can be made against all types of object. In the documentation all suitable target objects are listed against each call. The 6 objects are:
 
 * cells
 * ranges of cells
@@ -19,9 +19,9 @@ Normal Objects
 ====================== =======================================================
 Type                   Example
 ====================== =======================================================
-Cell                   ``http://example.com:1234/some/page/a1``
+a Cell                 ``http://example.com:1234/some/page/a1``
 
-Range                  ``http://example.com:1234/some/page/a1:d6``
+a Range                ``http://example.com:1234/some/page/a1:d6``
 
 (a Range of one Cell)  ``http://example.com:1234/some/page/a1:a1``
 
@@ -33,8 +33,10 @@ Rows                   ``http://example.com:1234/some/page/4:6``
 
 (a Row)                ``http://example.com:1234/some/page/4:4``
 
-Page                   ``http://example.com:1234/some/page/``
+a Page                 ``http://example.com:1234/some/page/``
 ====================== =======================================================
+
+All URL's are case-insensitive.
 
 All paths are valid (with the exception of those that begin with an underscore (``_``) which are reserved for admin pages.
 
@@ -46,12 +48,12 @@ Path segments can contain the following characters:
 * lowercase latin 1 characters
 * numbers
 * underscore (``_``)
-* hypen (``-``)
-* tilda (``~``)
+* hyphen (``-``)
+* tilde (``~``)
 
 Using the following path naming conventions will make your life easier:
 
-* don't start a path with an underscore - certain webcontrols which are defined in fuctions (for example forms, telephony, email handlers) log information to pages whose names begin with an underscore
+* don't start a path with an underscore - certain webcontrols which are defined in functions (for example forms, telephony, email handlers) log information to pages whose names begin with an underscore
 
 Normally websites run on port 80 and in these cases the port number (``1234`` in the examples) can be dropped from the URL schema.
 
@@ -65,6 +67,6 @@ You should not write to any objects on the admin path unless specified by a part
 * ``http://example.com:1234/_admin/a5``
 * ``http://example.com:1234/_my/secret/pages/a5:h10``
 
-Where an API refers to an admin page you should use the page refered to.
+Where an API refers to an admin page you should use the page referred to.
 
 .. _administrative actions: ./administrative-actions.html

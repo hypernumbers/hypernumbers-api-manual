@@ -9,7 +9,7 @@ The API works by using a digitally signed ``http`` request (either ``GET`` or ``
 
 A set of public and private keys is generated on the Vixo site and these are used to sign the requests.
 
-The API is based on the Amazon Web Services digitially signed api. This is because it:
+The API is based on the Amazon Web Services digitally signed api. This is because it:
 
 * makes it easy to implement an API
   - using a proven approach developed by a major internet company so that you can confidence that it is robust
@@ -190,4 +190,4 @@ You should write your client library implementing the same test suite.
 
 If you develop an as-is client-side library in another language please consider submitting its code to our repository.
 
-Bug fixes or improvements to the existing client libraries will be gratefully ccepted.
+Bug fixes or improvements to the existing client libraries will be gratefully accepted.

@@ -42,6 +42,8 @@ Body        ``{"delete": "horizontal"}``
 
             ``{"delete": "vertical"}``
 
+Permissions ``normal`` or ``admin``
+
 Cell        ``http://example.com/some/page/a5``
 
 Range       ``http://example.com/some/page/a5:b6``
@@ -68,11 +70,13 @@ Headers     ``{"Accept", "application/json"}``
 
 Body        ``{"delete": "all"}``
 
+Permissions ``normal`` or ``admin``
+
 Columns     ``http://example.com/some/page/a:b``
 
 Rows        ``http://example.com/some/page/5:6``
 
-Normal Page ``http://example.com/some/page/``
+Page        ``http://example.com/some/page/``
 =========== =============================================================
 
 Obviously row deletions displace vertically and column deletions displace horizontally.

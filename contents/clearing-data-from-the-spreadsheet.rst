@@ -5,9 +5,9 @@ Clearing Formulae, Values And Formats
 Overview
 --------
 
-Clearing and `deleting`_ are distinct activities in spreadsheets. Deleting a cell makes any formula refering to that cell invalid and also involves changing the address of all cells to the right or down from the deleted cell. If the refering cells have a function that involves their cell address it might also trigger a recalculation.
+Clearing and `deleting`_ are distinct activities in spreadsheets. Deleting a cell makes any formula referring to that cell invalid and also involves changing the address of all cells to the right or down from the deleted cell. If the referring cells have a function that involves their cell address it might also trigger a recalculation.
 
-Clearing a cell might simply remove one of the many formats, leaving the value unchanged, or it might reset the cell to be a blank cell, and to trigger a recalcuation of cells that refer to it.
+Clearing a cell might simply remove one of the many formats, leaving the value unchanged, or it might reset the cell to be a blank cell, and to trigger a recalculation of cells that refer to it.
 
 There are 4 different sorts of ``clear`` which can be actioned with the API:
 
@@ -28,9 +28,9 @@ Body        ``{"clear": "all"}``
 
             ``{"clear": "content"}``
 
-            ``{"clear": "format"}``
+            ``{"clear": "formatting"}``
 
-            ``{"clear": "merge"}``
+Permissions ``normal`` or ``admin``
 
 Cell        ``http://example.com/some/page/b7``
 
@@ -40,16 +40,14 @@ Columns     ``http://example.com/some/page/7:9``
 
 Rows        ``http://example.com/some/page/b:c``
 
-Normal Page ``http://example.com/some/page/``
+Page        ``http://example.com/some/page/``
 =========== ============================================
 
 The option ``all`` clears everything except numerical formats: values, formulae, special formats, merges and ghosts.
 
 The option ``contents`` removes values and formulae from cells only and leaves the formats.
 
-The option ``format`` removes all formats (except numerical formats)
-
-The option ``merge`` removes merged cells only.
+The option ``formatting`` removes all formats (except numerical formats)
 
 Note that unlike most other formatting options ``clear`` can be applied to rows, columns and entire pages.
 
