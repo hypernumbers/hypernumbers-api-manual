@@ -134,7 +134,9 @@ Cell        ``http://example.com/some/page/b7``
 Range       ``http://example.com/some/page/b7:b9``
 =========== ============================================
 
-Note that the figures to merge the cell by are integers (and not string representation of integers).
+.. Note::
 
-Clearing works as previously described in this section.
+    The figures to merge the cell by are integers (and not string representation of integers).
+
+    Clearing works as previously described in this section.
 

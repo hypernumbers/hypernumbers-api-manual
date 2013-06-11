@@ -82,6 +82,8 @@ Page        ``http://example.com/some/page/``
 
 To make a particular view available to anonymous/not logged in users (ie to make it a public web page) the value of ``everyone`` should be set to ``true``.
 
-Note:: setting ``everyone`` to ``true`` for the **spreadsheet** view is a **VERY BAD IDEA**.
+.. Note::
+
+    Setting ``everyone`` to ``true`` for the **spreadsheet** view is a **VERY BAD IDEA**.
 
 .. _views: http://documentation.vixo.com/contents/vixo-overview/web-and-wikipages.html?freom=vixo-api-manual

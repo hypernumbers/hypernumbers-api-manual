@@ -4,7 +4,7 @@ User Permissions In Vixo
 
 In Vixo a user is defined by an email address.
 
-User's are not directly granted any permission to do anything on a Vixo spreadsheet.
+Users are not directly granted any permission to do anything on a Vixo spreadsheet.
 
 Vixo uses role-based access control - a user is placed in one or more groups, and these groups are given various permissions.
 
@@ -25,7 +25,7 @@ The personal group is only used for 'home pages'.
 API
 ---
 
-An API with a public key of ``12345678abcdefgh`` on site ``http://subdomain.example.com:1234`` is treated as a user with an email address of ``12345678abcdefh.subdomain.example.com.1245@vixoapi.com``.
+An API with a public key of ``12345678abcdefgh`` on site ``http://subdomain.example.com:1234`` is treated as a user with an email address of ``12345678abcdefh.subdomain.example.com.1234@vixoapi.com``.
 
 This email address appears in all logs of activities.
 

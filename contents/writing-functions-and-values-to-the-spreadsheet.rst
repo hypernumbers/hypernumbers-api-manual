@@ -139,7 +139,7 @@ These will resolve to ``Hey! &lt;Hey!&gt;`` and ``'&lt;Hey!&gt;`` respectively.
 
 .. Note::
 
-     If a cell is made user editable on a wiki page as an input cell the input is automatically escaped - effectively the same as sharp quoting all formulae. Wiki users cannot enter either formulae or html into a cell - only string, integers, floating point numbers, booleans and errors.
+    If a cell is made user editable on a wiki page as an input cell the input is automatically escaped - effectively the same as sharp quoting all formulae. Wiki users cannot enter either formulae or html into a cell - only string, integers, floating point numbers, booleans and errors.
 
 Clearing Cells
 --------------
@@ -183,7 +183,9 @@ Appending Data To Pages
 
 The appending data API behaves similarly to the `form functionality`_ in the Vixo spreadsheet - unlike in the API appending forms in Vixo use `special functions`_
 
-Note:: This is the **only** action that an append_only API key can execute. This type of key can be used to allow someone non-destructive access to add data to a system without risk of breaking anything else.
+.. Note::
+
+    This is the **only** action that an append_only API key can execute. This type of key can be used to allow someone non-destructive access to add data to a system without risk of breaking anything else.
 
 =========== ================================================================
 Component   Details

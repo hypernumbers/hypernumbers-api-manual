@@ -12,12 +12,9 @@ On a page deletion, any cell functions that reference the page that has been del
 
 Deleting a cell is a distinct activity from `clearing a cell`_.
 
-Note
-----
+.. Note::
 
-When this API is used to delete cells, ranges, rows and columns it deletes them **from a page** but the page continues to exist.
-
-When this API is used to delete a page **the page and the cells that were on it are deleted**.
+    When this API is used to delete cells, ranges, rows and columns it deletes them **from a page** but the page continues to exist. When this API is used to delete a page **the page and the cells that were on it are deleted**.
 
 
 Cell And Range Deletions
