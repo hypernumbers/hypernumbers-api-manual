@@ -5,7 +5,10 @@
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
 
 {%- macro relbar(bottom=False) %}
-{% include "xxmenu.html" %}
+          <a class="brand" href="http://vixo.com?from=http://api.vixo.com">Vixo</a>
+          <a class="brand" href="http://blog.vixo.com?from=http://api.vixo.com">Blog</a>
+          <a class="brand" href="http://documentation.vixo.com?from=http://api.vixo.com">Documentation</a>
+          <a class="brand" href="http://wordpress.vixo.com?from=http://api.vixo.com">WordPress Plugin</a>
 {%- endmacro %}
 
 {%- macro navigation() %}
@@ -160,6 +163,7 @@
   {% endif %}
 </head>
 <body>
+	<body>
 
 		<header role="banner">
 
@@ -183,30 +187,83 @@
 		</header> <!-- end header -->
 
 		<div class="container-fluid">
-
 			<div id="content" class="clearfix row-fluid">
-
 				<div id="main" class="span12 clearfix" role="main">
-          {% include "xxhero.html" %}
-          <div class="container-fluid">
-            <div class="content">
+          <header>
+					  <div class="hero-unit">
+              <h1>Vixo API</h1>
+              <p>Vixo the only native web spreadsheet - with the only native web API - loved by developers for its power and simplicity</p>
+            </div>
+          </header>
+				</div>
+			</div>
+    </div>
+
+<div class="container-fluid">
+<div class="content">
 
 {%- block content %}
     {%- block sidebar1 %} {# possible location for sidebar #} {% endblock %}
     <div class="row-fluid clearfix">
             {%- block document %}
-                <div class="span12">
-                    {% include "xxsales.html" %}
+                <div class="span8">
                     {% block body %} {% endblock %}
                     {% if theme_disqus_shortname %}
                         <div id="disqus_thread"></div>
                         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                     {% endif %}
                 </div>
+                <div class='span4'>
+                  <div class='alert'>
+                    <h4>Free Ebook</h4>
+                    <p>Two free ebooks that normally sell at $20 each will be yours if you sign up for our mailing list.</p>
+                    <a class='btn btn-large btn-primary' href="http://example.com">Sign Up Now</a>
+                  </div>
+                  <div class='alert'>
+                    <i class='icon-chevron-right icon-3x pull-left' style='color:#dd4814;'></i>
+                  <h4>Spreadsheet user?</h4>
+                  <p>learn how to use the Vixo Spreadsheet</p>
+                  <p>
+                    <a class="btn btn-info" href="http://vixo.com">
+                      Take me there.. »
+                    </a>
+                  </p>
+                  </div>
+                  <div class='alert'>
+                    <i class='icon-chevron-right icon-3x pull-left' style='color:#dd4814;'></i>
+                    <h4>WordPress user?</h4>
+                  <p>turbocharge your WordPress site with an embedded Vixo spreadsheet</p>
+                  <p>
+                    <a class="btn btn-info" href="http://vixo.com">
+                      Show me how »
+                    </a>
+                  </p>
+                  </div>
+                  <div class='alert'>
+                    <h4>Get Information</h4>
+                    <ul>
+                      <li><a href='http://example.com'>Pricing</a></li>
+                      <li><a href='http://example.com'>Features</a></li>
+                    </ul>
+                  </div>
+                  <div class='alert'>
+                    <h4>Get Cracking</h4>
+                    <ul>
+                      <li><a href='http://example.com'>Commission A Site</a></li>
+                      <li><a href='http://example.com'>Sign Up For The Mailing List</a></li>
+                    </ul>
+                  </div>
+                </div>
             {%- endblock %}
-            {% include "xxcall_to_action.html" %}
     </div>
 {%- endblock %}
+<div class='well'>
+  <h1>Shift yo butt, boy</h1>
+  <a class="btn btn-large btn-primary" href="http://example.com">Get A Spreadsheet</a>
+  <a class="btn btn-large btn-primary" href="http://example.com">Get A Life</a>
+  <a class="btn btn-large btn-primary" href="http://example.com">Get A Doghnut</a>
+</div>
+
 {%- block footer %}
     <div class="footer">
         {#        {%- block relbar2 %}{{ relbar(bottom=True) }}{% endblock %}#}

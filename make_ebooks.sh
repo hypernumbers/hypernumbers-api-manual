@@ -1,7 +1,6 @@
 #!/bin/bash
-cd /home/gordon/manual
+cd /home/gordon/vixo-api-manual
 cp ./_config/_conf.py conf.py
 make epub
-cd ../epub
-ebook-convert BuildingApplicationsWithVixo.epub BuildingApplicationsWithVixo.mobi
-echo "over and out..."
+cd ./_build/epub
+ebook-convert WordPressAndVixo.epub WordPressAndVixo.mobi

@@ -15,7 +15,6 @@ Introduction
    :maxdepth: 1
 
    Documentation Version       <contents/version>
-   Other Formats And Resources <contents/other-formats-and-resources>
 
 API Introduction
 ----------------

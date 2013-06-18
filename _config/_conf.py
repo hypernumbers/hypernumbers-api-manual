@@ -213,6 +213,3 @@ epub_language="en"
 
 epub_publisher="vixo.com"
 
-# location of cover
-epub_cover = ("./images/frontpage.png")
-

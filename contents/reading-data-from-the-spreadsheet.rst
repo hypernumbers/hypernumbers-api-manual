@@ -7,7 +7,7 @@ Here is an example page with some formatting:
 .. image:: /images/some-page.png
    :scale: 100 %
    :align: center
-   :alt:   a spreadsheet page
+   :alt: a spreadsheet page
 
 The following API call will return the json representation of this page in whole or in part:
 
@@ -121,9 +121,11 @@ Section         Meaning
                 ``input`` - cells marked input become input cells in the
                 `wiki view`_. Input can take one of three values:
 
-                 * ``inline``
-                 * ``inlinerich``
-                 * a json select structure of the form ``{"select": ["1", "2", "3"]}``
+                ``inline``
+
+                ``inlinerich``
+
+                a json select structure of the form ``{"select": ["1", "2", "3"]}``
 
 ``host``        The website the spreadsheet page is from
 
@@ -335,7 +337,7 @@ The json that is returned has the following structure:
         }
     }
 
-
 .. _ghost cell: http://documentation.vixo.com/contents/vixo-overview/making-forms.html
 
 .. _wiki view: http://documentation.vixo.com/contents/vixo-overview/web-and-wikipages.html
+

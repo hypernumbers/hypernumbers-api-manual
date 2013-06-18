@@ -189,6 +189,6 @@ There are existing client implementations in PHP and Erlang. These client librar
 
 You should write your client library implementing the same test suite.
 
-If you develop an as-is client-side library in another language please consider submitting its code to our repository.
+If you develop an *as-is* client-side library in another language please consider submitting its code to our repository.
 
 Bug fixes or improvements to the existing client libraries will be gratefully accepted.

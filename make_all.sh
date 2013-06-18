@@ -1,4 +1,4 @@
-#!/bin/bash
+s#!/bin/bash
 cd /home/gordon/wordpress-book
 echo "update the version number"
 release=`cat ./_config/_release`
@@ -32,19 +32,12 @@ make latex
 cd ./_build/latex
 echo "making pdf"
 make all-pdf
+cd ../../
 echo "uploading pdf"
-scp WordPressAndVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo2/
 echo "making epub"
 make epub
 cd ../epub
 ebook-convert WordPressAndVixo.epub WordPressAndVixo.mobi
-scp WordPressAndVixo.* gordon@hypernumbers.com:/hn/files-www/vixo2/
 cd ../html
-echo "tarring and zipping html"
-rm doco.tar.gz
-tar -cvf doco.tar *
-gzip doco.tar
-echo "uploading zipped html"
-scp doco.tar.gz gordon@hypernumbers.com:/hn/files-www/vixo2/
 cd /home/gordon/manual
 echo "over and out..."
