@@ -34,6 +34,6 @@ tar -cvf ../../doco.tar *
 cd ../..
 gzip doco.tar
 echo "uploading zipped html"
-scp doco.tar.gz gordon@bizdev.hypernumbers.com:/hn/files-www/beta.api.vixo.com
+scp doco.tar.gz root@bizdev.hypernumbers.com:/hn/files-www/beta.api.vixo.com
 cd /home/gordon/vixo-api-manual
 echo "over and out..."
