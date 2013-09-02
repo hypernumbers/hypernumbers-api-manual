@@ -3,6 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. raw:: html
+
+        <div>
+        <div class='well'>
+          <h2>Designed for the web</h2>
+        <i class='icon-heart icon-3x pull-left' style='color:#2935aa;'></i>
+        <p class='sphinx-lead'>Vixo has been designed and built as a web-spreadsheet from the ground up, its API is powerful and direct and designed to make integrating a breeze.</p>
+        </div>
+        <div class='well'>
+          <h2>Your API for your systems</h2>
+        <i class='icon-key icon-3x pull-left' style='color:#2935aa;'></i>
+        <p class='sphinx-lead'>The API is flexible and allows you to give systems partial and reduced permissions for better security and control.</p>
+        </div>
+        <div class='well'>
+          <h2>Making integration easy</h2>
+        <i class='icon-thumbs-up icon-3x pull-left' style='color:#2935aa;'></i>
+        <p class='sphinx-lead'>Spreadsheets are glueware, integrating information from people and systems is what they do - with Vixo you can build integrated dashboards in a trice.</p>
+        </div>
+        <div class='well'>
+          <h2>The simplest API imaginable - but no simpler</h2>
+        <i class='icon-ok icon-3x pull-left' style='color:#2935aa;'></i>
+        <p class='sphinx-lead'>Every object on a Vixo spreadsheet has a URL - you want to change a value just post to that URL - the simplest spreadsheet API on the web.</p>
+        </div>
+        <div class='well'>
+          <h2>Putting your business users in control</h2>
+        <i class='icon-rocket icon-3x pull-left' style='color:#2935aa;'></i>
+        <p class='sphinx-lead'>Your business users can build the templates, heirarchies and aggregation they want in Vixo, leaving you to just put in the raw data - taking all the aggravation out of dashboard designing.</p>
+        </div>
+        <div>
+        </div>
+
 Getting Started
 ---------------
 
