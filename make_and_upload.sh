@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/gordon/wordpress-book
+cd /home/gordon/hypernumbers-api-manual
 echo "update the version number"
 release=`cat ./_config/_release`
 echo "old $release"
@@ -23,7 +23,7 @@ echo "Generated: $now" >> ./contents/version.rst
 echo "making html"
 make html
 echo "making sitemap"
-echo "http://documentation.vixo.com/index.html" > ./_build/html/sitemap.txt
+echo "http://api.hypernumbers.org/index.html" > ./_build/html/sitemap.txt
 ls -d --full-time ./contents/* ./images/* | ./sitemap.gawk >> ./_build/html/sitemap.xml
 echo "copying favicon"
 cp favicon.ico ./_build/html
@@ -33,18 +33,18 @@ cd ./_build/latex
 echo "making pdf"
 make all-pdf
 echo "uploading pdf"
-scp WordPressAndVixo.pdf gordon@hypernumbers.com:/hn/files-www/vixo2/
+scp HypernumbersAPI.pdf gordon@hypernumbers.org:/hn/files-www/api.hypernumbers.org/
 echo "making epub"
 make epub
 cd ../epub
-ebook-convert WordPressAndVixo.epub WordPressAndVixo.mobi
-scp WordPressAndVixo.* gordon@hypernumbers.com:/hn/files-www/vixo2/
+ebook-convert HypernumbersAPI.epub HypernumbersAPI.mobi
+scp HypernumbersAPI.* gordon@hypernumbers.org:/hn/files-www/api.hypernumbers.org/
 cd ../html
 echo "tarring and zipping html"
 rm doco.tar.gz
 tar -cvf doco.tar *
 gzip doco.tar
 echo "uploading zipped html"
-scp doco.tar.gz gordon@hypernumbers.com:/hn/files-www/vixo2/
-cd /home/gordon/manual
+scp doco.tar.gz gordon@hypernumbers.org:/hn/files-www/api.hypernumbers.org/
+cd /home/gordon/hypernumbera-api-manual
 echo "over and out..."

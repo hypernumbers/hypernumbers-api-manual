@@ -29,42 +29,42 @@ An example of the json that returns is shown below. The logs show all the values
              "action": "write",
              "ref": "12:12",
              "actiontype": "",
-             "user": "ranjo@vixo.com",
+             "user": "ranjo@hypernumbers.org",
              "oldformula": ""
          },
          "1366571095542748": {
              "action": "write",
              "ref": "I:I",
              "actiontype": "",
-             "user": "ranjo@vixo.com",
+             "user": "ranjo@hypernumbers.org",
              "oldformula": ""
          },
         "1367231692235590": {
             "action": "write",
             "ref": "L4",
             "actiontype": "",
-            "user": "test@hypernumbers.com",
+            "user": "test@hypernumbers.org",
             "oldformula": "=sum(a1:b3)"
          },
         "1367231687312704": {
             "action": "write",
             "ref": "L4",
             "actiontype": "",
-            "user": "test@hypernumbers.com",
+            "user": "test@hypernumbers.org",
             "oldformula": "=1+2"
          },
         "1366571095427902": {
             "action": "write",
             "ref": "6:6",
             "actiontype": "",
-            "user": "ranjo@vixo.com",
+            "user": "ranjo@hypernumbers.org",
             "oldformula": ""
          },
         "1366571095524208": {
             "action": "write",
             "ref": "B:B",
             "actiontype": "",
-            "user": "ranjo@vixo.com",
+            "user": "ranjo@hypernumbers.org",
             "oldformula": ""
         },
      }

@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/gordon/vixo-api-manual
+cd /home/gordon/hypernumbers-api-manual
 echo "update the version number"
 release=`cat ./_config/_release`
 echo "old $release"
@@ -23,7 +23,7 @@ echo "Generated: $now" >> ./contents/version.rst
 echo "making html"
 make html
 echo "making sitemap"
-echo "http://api.vixo.com/index.html" > ./_build/html/sitemap.txt
+echo "http://api.hypernumbers.org/index.html" > ./_build/html/sitemap.txt
 ls -d --full-time ./contents/* ./images/* | ./sitemap.gawk >> ./_build/html/sitemap.xml
 echo "copying favicon"
 cp favicon.ico ./_build/html
@@ -34,6 +34,6 @@ tar -cvf ../../doco.tar *
 cd ../..
 gzip doco.tar
 echo "uploading zipped html"
-scp doco.tar.gz root@bizdev.hypernumbers.com:/hn/files-www/beta.api.vixo.com
-cd /home/gordon/vixo-api-manual
+scp doco.tar.gz root@bizdev.hypernumbers.org:/hn/files-www/beta.api.hypernumbers.org
+cd /home/gordon/hypernumbers-api-manual
 echo "over and out..."

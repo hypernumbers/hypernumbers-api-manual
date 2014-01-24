@@ -337,7 +337,7 @@ The json that is returned has the following structure:
         }
     }
 
-.. _ghost cell: http://documentation.vixo.com/contents/vixo-overview/making-forms.html
+.. _ghost cell: http://documentation.hypernumbers.org/contents/hypernumbers-overview/making-forms.html
 
-.. _wiki view: http://documentation.vixo.com/contents/vixo-overview/web-and-wikipages.html
+.. _wiki view: http://documentation.hypernumbers.org/contents/hypernumbers-overview/web-and-wikipages.html
 

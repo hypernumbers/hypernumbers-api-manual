@@ -54,8 +54,8 @@ The following page (and all its sub-pages) may be read by the API **but not writ
 
 * ``http://example.com/_audit/``
 
-.. _form: http://documentation.vixo.com/contents/indepth/making-forms.html
+.. _form: http://documentation.hypernumbers.org/contents/indepth/making-forms.html
 
-.. _submit button: http://documentation.vixo.com/contents/vixo-functions/web-forms/form-button.html
+.. _submit button: http://documentation.hypernumbers.org/contents/hypernumbers-functions/web-forms/form-button.html
 
-.. _configuring: http://documentation.vixo.com/contents/vixo-functions/web-forms/form-button.html
+.. _configuring: http://documentation.hypernumbers.org/contents/hypernumbers-functions/web-forms/form-button.html

@@ -181,7 +181,7 @@ If the value ``""`` is passed in an array like this **it will not be written** -
 Appending Data To Pages
 =======================
 
-The appending data API behaves similarly to the `form functionality`_ in the Vixo spreadsheet - unlike in the API appending forms in Vixo use `special functions`_
+The appending data API behaves similarly to the `form functionality`_ in the Hypernumbers spreadsheet - unlike in the API appending forms in Hypernumbers use `special functions`_
 
 .. Note::
 
@@ -236,6 +236,6 @@ The column ordering is as per the form functionality. The values are matched to 
 
 .. _Types Of API Keys: ./types-api-keys.html
 
-.. _form functionality: http://documentation.vixo.com/contents/indepth/making-forms.html?from=vixo-api-manual
+.. _form functionality: http://documentation.hypernumbers.org/contents/indepth/making-forms.html?from=hypernumbers-api-manual
 
-.. _special functions: http://documentation.vixo.com/contents/vixo-functions/web-forms/introduction-to-form-functions.html?from=vixo-api-manual
+.. _special functions: http://documentation.hypernumbers.org/contents/hypernumbers-functions/web-forms/introduction-to-form-functions.html?from=hypernumbers-api-manual

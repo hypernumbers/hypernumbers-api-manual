@@ -1,5 +1,5 @@
 s#!/bin/bash
-cd /home/gordon/wordpress-book
+cd /home/gordon/hypernumbers-api-manual
 echo "update the version number"
 release=`cat ./_config/_release`
 echo "old $release"
@@ -23,7 +23,7 @@ echo "Generated: $now" >> ./contents/version.rst
 echo "making html"
 make html
 echo "making sitemap"
-echo "http://documentation.vixo.com/index.html" > ./_build/html/sitemap.txt
+echo "http://documentation.hypernumbers.org/index.html" > ./_build/html/sitemap.txt
 ls -d --full-time ./contents/* ./images/* | ./sitemap.gawk >> ./_build/html/sitemap.xml
 echo "copying favicon"
 cp favicon.ico ./_build/html
@@ -37,7 +37,7 @@ echo "uploading pdf"
 echo "making epub"
 make epub
 cd ../epub
-ebook-convert WordPressAndVixo.epub WordPressAndVixo.mobi
+ebook-convert HypernumbersAPI.epub Hypernumbers.mobi
 cd ../html
-cd /home/gordon/manual
+cd /home/gordon/hypernumbers-api-manual
 echo "over and out..."

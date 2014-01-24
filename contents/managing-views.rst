@@ -2,7 +2,7 @@
 Managing Views
 ==============
 
-A Vixo page can have a number of views, the most important ones are:
+A Hypernumbers page can have a number of views, the most important ones are:
 
 * spreadsheet
 * webpage
@@ -11,7 +11,7 @@ A Vixo page can have a number of views, the most important ones are:
 
 Permissions are applied via the views. If a user has permission to **see** the spreadsheet view of a particular page then they have permission to **do** all spreadsheet things to that page - whereas if they only have permission to **see** the webpage they can't change anything.
 
-You can read more about `views`_ in the Vixo Manual.
+You can read more about `views`_ in the Hypernumbers Manual.
 
 Using the API you can:
 
@@ -86,4 +86,4 @@ To make a particular view available to anonymous/not logged in users (ie to make
 
     Setting ``everyone`` to ``true`` for the **spreadsheet** view is a **VERY BAD IDEA**.
 
-.. _views: http://documentation.vixo.com/contents/vixo-overview/web-and-wikipages.html?freom=vixo-api-manual
+.. _views: http://documentation.hypernumbers.org/contents/hypernumbers-overview/web-and-wikipages.html?freom=hypernumbers-api-manual

@@ -7,7 +7,7 @@ Introduction
 
 The API works by using a digitally signed ``http`` request (either ``GET`` or ``POST``).
 
-A set of public and private keys is generated on the Vixo site and these are used to sign the requests.
+A set of public and private keys is generated on the Hypernumbers site and these are used to sign the requests.
 
 The API is based on the Amazon Web Services digitally signed api. This is because it:
 
@@ -80,16 +80,16 @@ Some example output from running this function is:
 
 .. code-block:: erlang
 
-    (vixodev@vixo.dev)1> hmac_api_lib:get_api_keypair().
+    (hypernumbersdev@hypernumbers.dev)1> hmac_api_lib:get_api_keypair().
     {{public,"1aeb9dba3ef2fbc392a6e6245c9e019b"},
      {private,"1e2850a56b4008d87b2eb43bd7bcd906"}}
-    (vixodev@vixo.dev)2> hmac_api_lib:get_api_keypair().
+    (hypernumbersdev@hypernumbers.dev)2> hmac_api_lib:get_api_keypair().
     {{public,"5846106f93ed5be3a0f2c0ff116f1c79"},
      {private,"181c338bb9351cca7eafdb44abc63040"}}
-    (vixodev@vixo.dev)3> hmac_api_lib:get_api_keypair().
+    (hypernumbersdev@hypernumbers.dev)3> hmac_api_lib:get_api_keypair().
     {{public,"3acc102d0e0a0cbeb06a019733addec8"},
      {private,"1709260540016e2f609edf2b649b4d4c"}}
-    (vixodev@vixo.dev)4> hmac_api_lib:get_api_keypair().
+    (hypernumbersdev@hypernumbers.dev)4> hmac_api_lib:get_api_keypair().
     {{public,"d31b67b2a1c2f980b4dd8fd4f9a9f0ac"},
      {private,"ad1a0588f604fcb05e7c3c0355f838f9"}}
 
@@ -124,7 +124,7 @@ A hash of this string is made with the private key.
 
 The Amazon canonical form allows for the server side to require additional headers - ones that start with a defined header prefix. The client side my, at its discretion add its own headers with this prefix which will be included in the signature.
 
-The vixo server doesn't require any additional headers.
+The hypernumbers server doesn't require any additional headers.
 
 If you wish to use a custom header then add one whose name is prefixed by ``x-mochiapi-``.
 
@@ -147,7 +147,7 @@ An Amazon one looks like:
 
 ``Authorization: AWS 0PN5J17HBGZHT7JJ3X82:frJIUN8DYpKDtOLCwo//yllqDzg=``
 
-The corresponding Vixo one looks like:
+The corresponding Hypernumbers one looks like:
 
 ``Authorization: MOCHI 0PN5J17HBGZHT7JJ3X82:frJIUN8DYpKDtOLCwo//yllqDzg=``
 

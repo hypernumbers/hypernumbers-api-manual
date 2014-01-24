@@ -60,7 +60,7 @@ Unlike in a spreadsheet cell if these inputs begin with an equals sign they are 
 
 ``input`` with ``dynamic_select`` picks up its options from cells on the spreadsheet. If they change the available option set updates itself. The cells to be used are referenced by a URL. This URL be a simple one, or a `z-query`_.
 
-.. _z-query: http://documentation.vixo.com/contents/indepth/database-queries.html?from=vixo-api-manual
+.. _z-query: http://documentation.hypernumbers.org/contents/indepth/database-queries.html?from=hypernumbers-api-manual
 
 Setting the input to none removes the various inline editing capabilities. You can also clear an inline special format with ``clear``. The ``style`` option will remove the special format (and any ghost, merge and cell formats) but leave the numerical format and the value of the cell unchanged. The ``all`` option will remove both contents and cell and special formats.
 

@@ -30,7 +30,7 @@ An example post would be:
     {
          "jserr": {
             "msg": "ReferenceError: broken_function is not defined",
-            "cookies": "auth=test!hypernumbers.com|556450db4ac3e9a1d876287612578f89|63532459042|fb81786c1ce31961281d4c3bd9d20fc1",
+            "cookies": "auth=test!hypernumbers.org|556450db4ac3e9a1d876287612578f89|63532459042|fb81786c1ce31961281d4c3bd9d20fc1",
             "pageurl": "http://hypernumbers.dev:9000/some/page/#",
             "lineno": "25135",
             "errorfileurl": "http://hypernumbers.dev:9000/spreadsheet.body.js"

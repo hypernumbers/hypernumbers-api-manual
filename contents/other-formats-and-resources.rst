@@ -9,10 +9,10 @@ This documentation is available in four formats:
 * as an `mobi book`_ (suitable for Kindles)
 * as a `website`_
 
-.. _PDF:       ../../files/VixoAPI.pdf
-.. _ePub book: ../../files/VixoAPI.epub
-.. _mobi book: ../../files/VixoAPI.mobi
-.. _website:   http://api.documentation.vixo.com
+.. _PDF:       ../../files/HypernumbersAPI.pdf
+.. _ePub book: ../../files/HypernumbersAPI.epub
+.. _mobi book: ../../files/HypernumbersAPI.mobi
+.. _website:   http://api.documentation.hypernumbers.org
 
 .. index:: website
    pair: download; pdf
