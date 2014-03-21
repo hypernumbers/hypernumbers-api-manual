@@ -1,6 +1,6 @@
-========================
+================================
 User Permissions In Hypernumbers
-========================
+================================
 
 In Hypernumbers a user is defined by an email address.
 
